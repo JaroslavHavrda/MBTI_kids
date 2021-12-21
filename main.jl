@@ -5,26 +5,26 @@ end
 
 struct cognitive_functions_score
    name ::String
-   score ::Int
+   score ::Float64
 end
 
-function calculate_score( function ::cognitive_functions_questions)
+function calculate_score( cognitive_function ::cognitive_functions_questions)
    score = 0;
-   for question in function.questions
+   for question in cognitive_function.questions
       println(question);
       response = readline();
       while (response != "a" && response != "n")
+         println("zadej a nebo n");
          response = readline();
       end
       if response == "a"
          score = score + 1;
       end
    end
-   cognitive_functions_score(function.name, score/size(function.questions));
+   cognitive_functions_score(cognitive_function.name, score/size(cognitive_function.questions,1));
 end
 
-cognitive_functions 
-   = cognitive_functions_questions[
+cognitive_functions = cognitive_functions_questions[
       cognitive_functions_questions(
          "Se",
          String[
@@ -79,7 +79,7 @@ cognitive_functions
       ),
    ];
 
-scores = [calculate_score(function) for function in functions];
+scores = [calculate_score(cognitive_function) for cognitive_function in cognitive_functions];
 
 for score in scores
    if score.score > 0.5
