@@ -77,6 +77,67 @@ cognitive_functions = cognitive_functions_questions[
             "Má náhodné představy, např. že máma je agent?"
          ]
       ),
+      cognitive_functions_questions(
+         "Te",
+         String[
+            "Rád/Ráda plánuje?",
+            "Dodržuje a vynucuje pravidla?",
+            "Potřebuje být v centru dění?",
+            "Myslí si, že vše zvládne? Uhýbá před kritikou?",
+            "Úkoluje ostatní? Snaží se za ně rozhodovat?"
+         ]
+      ),
+      cognitive_functions_questions(
+         "Ti",
+         String[
+            "Hodnotí, porovnává, zpochybňuje?",
+            "Optimalizuje na maximální výsledek s minimálním úsilím?",
+            "Kategorizuje věci a myšlenky?",
+            "Nerad/Nerada se opakuje?",
+            "V novém prostředí první odtažitě pozoruje?",
+            "Navazuje vjen minimum sociálních kontaktů?",
+            "Vytváří kritéria úspěchu za běhu?",
+            "Dbá na své soukromí a soběstačnost?",
+            "Trvá na možnosti sám/sama se rozhodnout?",
+            "Nevnímá emoce druhých?",
+            "Když přijde k problému nebo nové situaci, snaží se první problém/situaci pochopit?"
+         ]
+      ),
+      cognitive_functions_questions(
+         "Fe",
+         String[
+            "Dbá na dodržování společenských norem?",
+            "Pomáhá druhým a očekává pomoc na oplátku?",
+            "Pečuje o druhé lidi?",
+            "Zdá se, že se ho/jí vše nějak dotkne?",
+            "Adaptuje se dobře na nové situace?",
+            "Potřebuje uznání?",
+            "Potřebuje být přijímaný/přijímaná druhými a milovaný/milovaná?",
+            "Potřebuje mít ve všem pořádek?",
+            "Organizuje druhé lidi?",
+            "Škatulkuje lidi a události na dobré a zlé?",
+            "Zaměřuje se na ostatní lidi?",
+            "Komunikuje své pocity?"
+         ]
+      ),
+      cognitive_functions_questions(
+         "Fi",
+         String[
+            "Promýtá do druhých své pocity?",
+            "Rozhoduje se dle svých ideálů?",
+            "Má své hodnoty uvnitř, nesdílí je?",
+            "Mají věci pro něj/ni emocionální hodnotu?",
+            "Je vázaný/vázaná na rodiče?",
+            "Nemá rád/ráda nové věci, změny?",
+            "Potřebuje čas o samotě?",
+            "Dá na své emoce?",
+            "Rozhoduje se pomalu?",
+            "Tráví hodně času ve svých představách?",
+            "Zdá se na venek odtažitý/odtažitá, ale přeesto je vnímavý/vnímavá?",
+            "Chce splnit všechna očekávání svého okolí?",
+            "Sdílí své emoce?"
+         ]
+      )
    ];
 
 scores = [calculate_score(cognitive_function) for cognitive_function in cognitive_functions];
