@@ -28,40 +28,40 @@ cognitive_functions = cognitive_functions_questions[
       cognitive_functions_questions(
          "Se",
          String[
-            "Vítá pestré aktivity?",
-            "Zjišťuje si fakta?",
-            "Raději improvizuje, než plánuje?",
-            "Vyjadřuje se svým tělěm?",
-            "Má rád/ráda hodně vjemů, obzvláště hluk?",
-            "Odtrhává se těžko od činnosti?",
-            "Chce vše dělat sám/sama?"
+            "Vítá pestré aktivity. Rád/Ráda zkouší nové věci.",
+            "Aktivně si zjišťuje fakta o věcech.",
+            "Rád/Ráda improvizuje. Nerad/Nerada dělá plány.",
+            "Vyjadřuje se i pomocí svého těla (čurání, prskání, plivání, obličeje)",
+            "Oceňuje hodně smyslových vjemů. Má rád/ráda hluk.",
+            "Často se zabere do činnosti a je těžké ho/ji od té činnosti odtrhnout.",
+            "Vše chce dělat sám/sama, odmítá návod."
          ]
       ),
       cognitive_functions_questions(
          "Si",
          String[
-            "Klade důraz na minulou zkušenost?",
-            "Plánuje často budoucnost?",
-            "Trvá mu/jí dlouho adaptace na nové prostředí?",
-            "Odděluje striktně fantasii a reálný svět?",
-            "Má rád/ráda pohyb?",
-            "Vnímá tělesné své tělesné potřeby?",
-            "Je doslovný/doslovná?",
-            "Je pořádkumilovný/pořádkumilovná?",
+            "Klade důraz na minulou zkušenost. Wždy se snaží najít pojítka mezi svou současnou sutuací a situací dřívější.",
+            "Často plánuje budoucnost.",
+            "Většinou trvá dlouho, než se adaptuje na nové prostředí.",
+            "Striktně odděluji fantasii a realitu. Např. při hře zdůrazňuje, že je něco  \" jen jako \" ",
+            "Má rád/ráda pohyb. Pohyb mu/jí způsobuje radost.",
+            "Vnímá tělesné své tělesné potřeby. Připomene se, když má hlad. Od mala ví, kdy jít na nočník.",
+            "Je doslovný/doslovná. Dává si pozor na termíny, které používá, opravuje druhé.",
+            "Je pořádkumilovný/pořádkumilovná. Chce mít vše uspořádané.",
          ]
       ),
       cognitive_functions_questions(
          "Ne",
          String[
-            "Má rád/ráda změny?",
-            "Srší nápady?",
-            "Nasává podněty a iniciuje kontakty?",
-            "Zkoumá věci do hloubky?",
-            "Zapojuje se do konverzace dospělých?",
-            "Používá fantasii, tvoří bez předlohy?",
-            "Dělá nerad/nerada praktické věci?",
-            "Je nepozorný/nepozorná? Má šatnou krátkodobou paměť?",
-            "Zkouší různé možnosti, jak udělat jednu věc?"
+            "Má rád/ráda změny. Delší čas beze změny ho/ji začíná nudit.",
+            "Srší nápady. Stále vymýšlí nové činnosti, s menším zájmem dokončovat.",
+            "Nasává podněty z okolí. Iniciuje kontakty.",
+            "Zkoumá věci do hloubky. Chce poznat, jak fungují.",
+            "Zapojuje se do konverzace dospělých. Chce být brán/brána jako rovnocenný dospělým.",
+            "Používá fantasii, tvoří bez předlohy.",
+            "Nerad dělá praktické věci (úklid, domácí úkoly, zařizování)",
+            "Je nepozorný/nepozorná. Má šatnou krátkodobou paměť.",
+            "Zkouší různé možnosti, jak udělat jednu věc."
          ]
       ),
       cognitive_functions_questions(
@@ -139,6 +139,10 @@ cognitive_functions = cognitive_functions_questions[
          ]
       )
    ];
+
+println("Instrukce:");
+println("Uvidíte výpis potřeb nebo modelů chování dítěte.");
+println(" Pokud danou potřebu nebo model chování pozorujete, dejte a, jinak dejte n");
 
 scores = [calculate_score(cognitive_function) for cognitive_function in cognitive_functions];
 
