@@ -67,75 +67,75 @@ cognitive_functions = cognitive_functions_questions[
       cognitive_functions_questions(
          "Ni",
          String[
-            "Zajímá ho/ji celkový pohled na věci?",
-            "Syntetizuje informace z různých zdrojů?",
-            "Potřebuje samotu?",
-            "Reaguje pomalu, nebo opožděně?",
-            "Je zasněný/zasněná, jakoby ve vlastním světě?",
-            "Hraje si s předměty, jež nejsou primárně hračky (nářadí, kuchyňské náčiní, větve)?",
-            "Čte rád/ráda?",
-            "Má náhodné představy, např. že máma je agent?"
+            "Zajímá ho/ji celkový pohled na věci a souvislosti více, než konkrétní detaily.",
+            "Syntetizuje informace z různých zdrojů.",
+            "Potřebuje čas o samotě.",
+            "Reaguje pomalu, opožděně.",
+            "Je zasněný/zasněná, jakoby ve vlastním světě.",
+            "Hraje si s předměty, jež nejsou primárně hračky (nářadí, kuchyňské náčiní, větve).",
+            "Rád/Ráda si čte.",
+            "Má náhodné představy, např. že máma je agent."
          ]
       ),
       cognitive_functions_questions(
          "Te",
          String[
-            "Rád/Ráda plánuje?",
-            "Dodržuje a vynucuje pravidla?",
-            "Potřebuje být v centru dění?",
-            "Myslí si, že vše zvládne? Uhýbá před kritikou?",
-            "Úkoluje ostatní? Snaží se za ně rozhodovat?"
+            "Rád/Ráda plánuje a následně se drží plánu.",
+            "Dodržuje a vynucuje pravidla.",
+            "Potřebuje být v centru dění.",
+            "Myslí si, že vše zvládne. Kritika je mu/jí nepříjemná, snaží se ji oddálit nebo eliminovat.",
+            "Úkoluje ostatní. Snaží se za ostatní rozhodovat."
          ]
       ),
       cognitive_functions_questions(
          "Ti",
          String[
-            "Hodnotí, porovnává, zpochybňuje?",
-            "Optimalizuje na maximální výsledek s minimálním úsilím?",
-            "Kategorizuje věci a myšlenky?",
-            "Nerad/Nerada se opakuje?",
-            "V novém prostředí první odtažitě pozoruje?",
-            "Navazuje vjen minimum sociálních kontaktů?",
-            "Vytváří kritéria úspěchu za běhu?",
-            "Dbá na své soukromí a soběstačnost?",
-            "Trvá na možnosti sám/sama se rozhodnout?",
-            "Nevnímá emoce druhých?",
-            "Když přijde k problému nebo nové situaci, snaží se první problém/situaci pochopit?"
+            "Hodnotí, porovnává, zpochybňuje všechny informace.",
+            "Optimalizuje na maximální výsledek s minimálním úsilím.",
+            "Kategorizuje věci a myšlenky.",
+            "Nerad/Nerada se opakuje.",
+            "V novém prostředí první odtažitě pozoruje.",
+            "Navazuje jen minimum sociálních kontaktů.",
+            "Vytváří kritéria úspěchu za běhu.",
+            "Dbá na své soukromí a soběstačnost.",
+            "Trvá na možnosti sám/sama se rozhodnout.",
+            "Nevnímá emoce druhých.",
+            "Když přijde k problému nebo nové situaci, snaží se první problém/situaci pochopit."
          ]
       ),
       cognitive_functions_questions(
          "Fe",
          String[
-            "Dbá na dodržování společenských norem?",
-            "Pomáhá druhým a očekává pomoc na oplátku?",
-            "Pečuje o druhé lidi?",
-            "Zdá se, že se ho/jí vše nějak dotkne?",
-            "Adaptuje se dobře na nové situace?",
-            "Potřebuje uznání?",
-            "Potřebuje být přijímaný/přijímaná druhými a milovaný/milovaná?",
-            "Potřebuje mít ve všem pořádek?",
-            "Organizuje druhé lidi?",
-            "Škatulkuje lidi a události na dobré a zlé?",
-            "Zaměřuje se na ostatní lidi?",
-            "Komunikuje své pocity?"
+            "Dbá na dodržování společenských norem.",
+            "Pomáhá druhým. Když je v nesnázích, očekává pomoc od okolí (bere to jeko samozřejmost).",
+            "Pečuje o druhé lidi.",
+            "Zdá se, že se ho/jí vše nějak dotkne.",
+            "Adaptuje se dobře na nové situace.",
+            "Potřebuje uznání.",
+            "Potřebuje být přijímaný/přijímaná druhými a milovaný/milovaná.",
+            "Potřebuje mít ve všem pořádek.",
+            "Organizuje druhé lidi.",
+            "Škatulkuje lidi a události na dobré a zlé.",
+            "Zaměřuje se na ostatní lidi. (Důraz: ne na sebe, ne na věci)",
+            "Komunikuje své pocity."
          ]
       ),
       cognitive_functions_questions(
          "Fi",
          String[
-            "Promýtá do druhých své pocity?",
-            "Rozhoduje se dle svých ideálů?",
-            "Má své hodnoty uvnitř, nesdílí je?",
-            "Mají věci pro něj/ni emocionální hodnotu?",
-            "Je vázaný/vázaná na rodiče?",
-            "Nemá rád/ráda nové věci, změny?",
-            "Potřebuje čas o samotě?",
-            "Dá na své emoce?",
-            "Rozhoduje se pomalu?",
-            "Tráví hodně času ve svých představách?",
-            "Zdá se na venek odtažitý/odtažitá, ale přeesto je vnímavý/vnímavá?",
-            "Chce splnit všechna očekávání svého okolí?",
-            "Sdílí své emoce?"
+            "Promýtá do druhých své pocity.",
+            "Rozhoduje se dle svých ideálů, ne dle fakt.",
+            "Má své hodnoty uvnitř, nesdílí je.",
+            "Mají věci pro něj/ni emocionální hodnotu.",
+            "Je vázaný/vázaná na rodiče.",
+            "Nemá rád/ráda nové věci, změny.",
+            "Potřebuje čas o samotě.",
+            "Dá hlavně na své emoce.",
+            "Rozhoduje se pomalu.",
+            "Tráví hodně času ve svých představách.",
+            "Zdá se na venek odtažitý/odtažitá, ale přeesto je vnímavý/vnímavá.",
+            "Chce splnit všechna očekávání svého okolí.",
+            "Sdílí své emoce s druhými."
          ]
       )
    ];
